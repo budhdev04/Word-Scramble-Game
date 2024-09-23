@@ -1,0 +1,100 @@
+/* Overall styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  /* Dark mode styling */
+  .dark-mode {
+    background: linear-gradient(135deg, #232526, #414345);
+    color: #f4f4f4;
+  }
+  
+  #container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  #label {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  #word {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  
+  #guess {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  #score {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Dark mode button styling */
+  .dark-mode button {
+    background-color: #222;
+  }
+  
+  .dark-mode button:hover {
+    background-color: #333;
+  }
+  
