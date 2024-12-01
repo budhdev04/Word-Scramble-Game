@@ -22,3 +22,6 @@
 3. Click "Submit" or press "Enter" to check your answer.
 4. If correct, your score increases, and a new word is displayed.
 5. Click "New Word" to get a fresh challenge at any time.
+
+# YOU CAN PLAY THE GAME BY USING THE LINK GIVEN BELOW
+https://budhdev04.github.io/Word-Scramble-Game/
